@@ -1,8 +1,9 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Алина  Юрова](https://up.htmlacademy.ru/htmlcss/17/user/239220).
+ Наставник: [Виктория Коваленко]
+(https://up.htmlacademy.ru/htmlcss/17/42638).
 
----
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitignore`, `Contributing.md`, `Readme.md`._
