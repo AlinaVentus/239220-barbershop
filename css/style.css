@@ -1,0 +1,21 @@
+body{
+    font-size: 14px;
+    line-height: normal;
+    color: red;
+    font-weight: normal;
+    font-family: Sans Regular;
+}
+.subtitle-title{
+    font-size: 24px;
+    line-height: normal;
+    color: #000000;
+    font-weight: normal;
+    font-family: Sans Narrow Bold;
+}
+.breadcrumbs-title{
+   font-size: 30px;
+    line-height: normal;
+    color: #000000;
+    font-weight: normal;
+    font-family: Sans Bold; 
+}
