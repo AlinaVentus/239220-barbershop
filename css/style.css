@@ -3,19 +3,21 @@ body{
     line-height: normal;
     color: red;
     font-weight: normal;
-    font-family: Sans Regular;
-}
+    font-family: "Sans Regular", sans-serif;}
+
 .subtitle-title{
     font-size: 24px;
     line-height: normal;
     color: #000000;
     font-weight: normal;
-    font-family: Sans Narrow Bold;
-}
+    font-family: "Sans Narrow", sans-serif;}
+
 .breadcrumbs-title{
    font-size: 30px;
     line-height: normal;
     color: #000000;
     font-weight: normal;
-    font-family: Sans Bold; 
-}
+    font-family: "Sans Bold", sans-serif;}
+
+.main-footer{
+    background-color: black;}
