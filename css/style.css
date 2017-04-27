@@ -1,23 +1,148 @@
 body{
-    font-size: 14px;
-    line-height: normal;
-    color: red;
-    font-weight: normal;
-    font-family: "Sans Regular", sans-serif;}
+    min-width: 1122px;
+    min-height: 1750;
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.main-header{
+    min-height: 70px;
+}
+.container{
+    width: 940px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.main-nav{
+    width: 780px;
+    float: left;
+    background-color: palevioletred;
+}
+.user-block{
+    width: 140px;
+    float: right;
+    background-color: green;
+}
+.index-logo{
+    width: 368px;
+    height: 204px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+}
+.features-item{
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+}
+.features-item:last-child{
+    margin-right: 0;
+}
+.index-content{
+    margin-bottom: 35px;
+    padding: 50px 80px;
+}
+.index-content-left{
+    float: left;
+    width: 380px;
+}
+.index-content-right{
+    float: right;
+    width: 300px;
+}
+.main-footer {
+    margin-top: 65px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    clear: both;
+}
+.contacts{
+    float: left;
+    width: 320px;
+    margin-right: 60px;
+    background-color: antiquewhite;
+}
+.socials{
+    float: left;
+    width: 180px;
+    background-color: aquamarine;
+}
+.copyright{
+    float: right;
+    width: 180px;
+    background-color: lightblue;
+}
 
-.subtitle-title{
-    font-size: 24px;
-    line-height: normal;
-    color: #000000;
-    font-weight: normal;
-    font-family: "Sans Narrow", sans-serif;}
+/*сетка для Catalog.html*/
+.breadcrumbs{
+    width: 941px;
+    min-height: 150px;
+    background-color: dimgrey;
+    clear: both;
+}
+.search{
+    width: 220px;
+    float: left;
+    background-color: rebeccapurple;
+    
+}
+.catalog{
+    width: 700px;
+    float: right;
+    background-color: royalblue;
+    margin-bottom: 45px;
+}
+.pagination{
+    clear: both;
+    background-color: rosybrown;
+    width: 200px;
+    margin: 0 auto;
+}
 
-.breadcrumbs-title{
-   font-size: 30px;
-    line-height: normal;
-    color: #000000;
-    font-weight: normal;
-    font-family: "Sans Bold", sans-serif;}
+/*сетка для catalog-item.html*/
+.goods-img{
+    width: 460px;
+    float: left;
+    background-color: peachpuff;
+}
+.goods-description{
+    width: 400px;
+    float: right;
+    background-color: orchid;
+}
 
-.main-footer{
-    background-color: black;}
+/*сетка для Barbershop-price.html*/
+.slogan{
+    background-color: lightcoral;
+}
+.benefits-item{
+    width: 240px;
+    float: left;
+    background-color: silver;
+    padding-left: 10px;
+}
+.benefits-price{
+    width: 460px;
+    float: right;
+    background-color: mediumorchid;
+    padding-right: 10px;
+}
+.benefits-about-us{
+    clear: both;
+    background-color: violet;
+    padding-left: 10px;
+}
+.benefits-about-us1{
+    float: left;
+    width: 380px;
+    padding-left: 10px;
+}
+.benefits-about-us2{
+    width: 380px;
+    float: right;
+    padding-right: 90px;
+}
