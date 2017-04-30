@@ -22,6 +22,9 @@ body{
     float: left;
     background-color: palevioletred;
 }
+li{
+    display: inline-block;
+}
 .user-block{
     width: 140px;
     float: right;
@@ -55,10 +58,9 @@ body{
     width: 300px;
 }
 .main-footer {
-    margin-top: 65px;
-    padding-top: 60px;
+    margin-top: 100px;
+    padding-top: 100px;
     padding-bottom: 40px;
-    clear: both;
 }
 .contacts{
     float: left;
@@ -82,13 +84,11 @@ body{
     width: 941px;
     min-height: 150px;
     background-color: dimgrey;
-    clear: both;
 }
 .search{
     width: 220px;
     float: left;
-    background-color: rebeccapurple;
-    
+    background-color: rebeccapurple;   
 }
 .catalog{
     width: 700px;
@@ -97,7 +97,6 @@ body{
     margin-bottom: 45px;
 }
 .pagination{
-    clear: both;
     background-color: rosybrown;
     width: 200px;
     margin: 0 auto;
@@ -105,7 +104,7 @@ body{
 
 /*сетка для catalog-item.html*/
 .goods-img{
-    width: 460px;
+    width: 461px;
     float: left;
     background-color: peachpuff;
 }
@@ -132,7 +131,6 @@ body{
     padding-right: 10px;
 }
 .benefits-about-us{
-    clear: both;
     background-color: violet;
     padding-left: 10px;
 }
@@ -145,4 +143,9 @@ body{
     width: 380px;
     float: right;
     padding-right: 90px;
+}
+.goods{
+    width: 220px;
+    min-height: 400px;
+    float: left;
 }
